@@ -1,0 +1,5 @@
+--no-mtime
+
+-o /sdcard/Download/%(title)s.%(ext)s
+
+-f "best[height<=1080]"
